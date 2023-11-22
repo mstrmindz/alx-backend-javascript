@@ -11,9 +11,9 @@ console.log("Welcome to Holberton School, what is your name?");
 
 rl.on("line", (name) => {
   if (name.trim() !== "") {
-    console.log("Your name is: Tunji");
+    console.log(`Your name is: ${name}`);
   } else {
-    console.log("Your name is not provided. Defaulting to Tunji.");
+    console.log("Your name is not provided.");
   }
 
   // Close the program
